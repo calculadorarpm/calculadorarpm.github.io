@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: darkcyan;
+}
+p{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+   
+}
+input.Input{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+input.vel{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+input.dos{
+    width: 50px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+button.results{
+    color: black;
+    background-color: rgb(70, 154, 228);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: outset;
+    color: aliceblue;
+}
+button.results:hover{
+    background-color: rgb(60, 153, 235);
+}
+button.results:active{
+    background-color: rgb(0, 123, 231);
+    border-style: inset;
+}
+input:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+input:focus{
+    background-color: rgb(190, 189, 189);
+}
+
+div {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+}
